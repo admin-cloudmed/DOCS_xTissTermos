@@ -1,8 +1,8 @@
 cloudmed/termos
 ================================
-Parte integrante de cloudmed/termos
+Parte integrante de cloudmed/xTiss
 
-Termos de uso do sistema (portalcompras.io) em formato Ruby/Sinatra 
+Termos de uso do sistema (xtiss.com.br) em formato Ruby/Sinatra 
 	
 	(Termos de Uso)
 1.Instale a gem Bundler:
