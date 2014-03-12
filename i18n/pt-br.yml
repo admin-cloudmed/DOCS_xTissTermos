@@ -1,0 +1,102 @@
+"pt-BR":
+  main_menu:
+    home: "Início"
+    docs: "Termos de Uso"
+    get_in_touch: "Entre em contato"
+  errors:
+    not_found:
+      title: "Página não econtrada"
+      description: "Não foi possível encontrar a página solicitada."
+  general:
+    updated_at: "Atualizado em %{date}"
+    index: "Índice"
+  footer:
+    paragraph_1: "Os nomes e logotipos xTiss são marcas registradas da CloudMed. Todos os direitos reservados."
+    get_in_touch: "Entre em contato"
+  termos:
+   index:
+      title: "Termos de Uso"
+      table_of_contents: 
+        nota: "Nota"
+        claus_1: "1ª - Objeto e Aceite dos Termos"
+        claus_2: "2ª - Propriedade Intelectual"
+        claus_3: "3ª - Declaração de Vontade"
+        claus_4: "4ª - Licença de Uso do Software"
+        claus_5: "5ª - Das Restrições"
+        claus_6: "6ª - Do Prazo"
+        claus_7: "7ª - Da Remuneração e Forma de Pagamento"
+        claus_8: "8ª - Restituição das Informações"
+        claus_9: "9ª - Das Obrigações do Licenciado"
+        claus_10: "10ª - Das Obrigações do Licenciante"
+        claus_11: "11 - Nível de Serviço"
+        claus_12: "12 - Isenção de Responsabilidade da Licenciante"
+        claus_13: "13 - Da Retomada dos Softwares"
+        claus_14: "14 - Das Garantias Limitadas"
+        claus_15: "15 - Limitação de Responsabilidade"
+        claus_16: "16 - Da Rescisão"
+        claus_17: "17 - Das disposições Legais"
+        claus_18: "18 - Da Lei Aplicável"
+      nota:
+        item_1: "Antes de utilizar o xTiss, você deve ler, entender e concordar com estes termos e condições, pois eles definirão a relação de prestação de serviço que estamos oferecendo."
+      claus_1:
+        item_1: "O presente Contrato de Uso é um acordo legal entre o LICENCIADO (pessoa jurídica) e a CLOUDMED TECNOLOGIA EM SISTEMAS DE SAÚDE LTDA, pessoa jurídica de direito privado, inscrita no CNPJ sob n° 15.521.965/0001-05, com sede na Avenida Hugo Betarello, n° 3810, Esplanada Primo Meneguetti, na cidade de Franca, Estado de São Paulo, CEP 14.403-219 - LICENCIANTE, para uso do programa de computador denominado xTiss OPME (SERVIÇO), disponibilizado neste ato pela LICENCIANTE, pelo prazo determinado pelo LICENCIADO no ato do licenciamento do SERVIÇO, o que inclui o programa de computador e pode incluir os meios físicos associados, quaisquer materiais impressos, e qualquer documentação ‘online’ ou eletrônica. Constitui-se o SERVIÇO de um ‘sistema WEB, para compra e gestão de materiais médico-hospitalares e OPME (órteses, próteses e materiais especiais) utilizados no dia-a-dia e em procedimentos cirúrgicos, capaz de reunir informações necessárias (descrição, preços, código ANVISA), bem como prover o controle de toda utilização’.Ao utilizar o SERVIÇO, mesmo que parcial ou a título de teste, o LICENCIADO estará vinculado aos termos deste Contrato de Licença de Uso, concordando com os mesmos. Em caso de discordância dos termos aqui apresentados, a utilização do SERVIÇO deve ser imediatamente interrompida."
+      claus_2:
+        item_1: "O LICENCIADO não adquire, pelo presente instrumento, nenhum direito de propriedade intelectual ou outros direitos exclusivos, incluindo patentes, desenhos, marcas, direitos autorais ou direitos sobre informações confidenciais ou segredos de negócio, sobre ou relacionados ao SERVIÇO ou nenhuma parte dele. O LICENCIADO também não adquire nenhum direito sobre ou relacionado ao SERVIÇO ou qualquer componente dele, além dos direitos expressamente licenciados neste Contrato de Uso ou em qualquer outro contrato mutuamente acordado por escrito que o LICENCIADO possa ter celebrado com a LICENCIANTE. Quaisquer direitos não expressamente concedidos sob o presente instrumento são reservados."
+      claus_3:
+        item_1: "O LICENCIANTE declara ter ciência dos direitos e obrigações decorrentes do presente Termo de Uso, constituindo este instrumento o acordo completo entre as partes. Declara, ainda, ter lido, compreendido e aceito todos os termos e condições."
+      claus_4:
+        item_1: "Sujeito aos termos e condições do presente instrumento, este Termo de Uso concede ao LICENCIADO uma licença revogável, não exclusiva e intransferível para usar o SERVIÇO. O LICENCIADO não poderá utilizar e nem permitir o uso do SERVIÇO para outra finalidade que não seja o uso interno. Esta licença não implica na capacidade de acessar outros softwares além daqueles originalmente localizados no SERVIÇO. Em nenhuma hipótese o LICENCIADO terá acesso ao código fonte do SERVIÇO ora licenciado, por este se tratar de propriedade intelectual da LICENCIANTE."
+      claus_5:
+        item_1: "Em hipótese alguma é permitido ao LICENCIADO ou a terceiros, de forma geral:"
+        item_2: "A.	Copiar, ceder, sublicenciar, vender, dar em locação ou em garantia, reproduzir, doar, alienar de qualquer forma, transferir total ou parcialmente, sob quaisquer modalidades, gratuita ou onerosamente, provisória ou permanentemente, o SERVIÇO objeto deste Termo de Uso, assim como seus módulos, partes, manuais ou quaisquer informações relativas ao mesmo;"
+        item_3: "B.	Retirar ou alterar, total ou parcialmente, os avisos de reserva de direito existente nos SERVIÇOS e na documentação;"
+        item_4: "C.	Praticar de engenharia reversa, descompilação ou desmontagem do SERVIÇO."
+      claus_6:
+        item_1: "O presente Termo de Uso entra em vigor na data de seu aceite pelo LICENCIADO e vigorará pelo prazo mínimo de 12 (doze) meses, podendo ser resilido pela LICENCIANTE ou pelo LICENCIADO mediante notificação prévia de 30 (trinta) dias a outra Parte, ficando certo que as Partes permanecerão responsáveis pelo cumprimento de todas as obrigações assumidas nos termos deste Termo até sua integral liquidação."
+      claus_7:
+        item_1: "O LICENCIADO deve pagar ao LICENCIANTE o valor correspondente ao plano escolhido, respeitado o período definido no ato da contratação."
+        item_2: "Sem taxas de alteração ou implantação, caso o LICENCIADO, na vigência da contratação, decida por escolher outro plano de contratação, os valores serão alterados de acordo com o respectivo plano escolhido."
+        item_3: "A franquia mínima (orçamentos) não limita, de qualquer forma, o LICENCIADO a continuar realizando orçamentos através do SISTEMA. Contudo, os orçamentos que ultrapassarem a franquia mínima, serão cobrados à parte, por cada orçamento realizado, respeitando o plano escolhido, quanto ao valor."
+        item_4: "O pagamento será realizado através de boleto bancário.Na hipótese de pagamento em atraso, o valor do débito será acrescido de multa de 2% (dois por cento), além de juros de mora de 1% (um por cento) ao mês ‘pró rata die’, sem prejuízo das demais sanções aplicáveis, dentre as quais a suspensão temporária do SERVIÇO ou, ainda, a rescisão do presente instrumento, a exclusivo critério da LICENCIANTE.Após 05 (cinco) dias úteis da falta de pagamento nas datas determinadas para seu vencimento, o SERVIÇO será suspenso até que as pendências financeiras sejam regularizadas. Caso a suspensão permaneça por prazo superior a 30 (trinta) dias, a LICENCIANTE poderá excluir integralmente as informações lançadas no SERVIÇO pelo LICENCIADO.Os valores estabelecidos no ato do licenciamento do SERVIÇO serão atualizados anualmente ou no menor lapso de tempo legalmente permitido pelo IGPM-FGV acumulado no período, ou no caso de extinção deste, de outro índice oficial que venha a substituí-lo."
+      claus_8:
+        item_1: "Suspenso o acesso ao SERVIÇO, a LICENCIANTE manterá as informações do LICENCIADO lançadas pelo período de 30 (trinta) dias, contados da suspensão de acesso. Neste período, a LICENCIANTE tornará as informações do LICENCIADO disponíveis para serem extraídas do SERVIÇO em formato .csv."
+      claus_9:
+        item_1: "Obriga-se o LICENCIADO a:"
+        item_2: "A.	Manter pessoal treinado para a operação do SERVIÇO e para a comunicação com a LICENCIANTE e prover, sempre que ocorrerem quaisquer problemas com o SERVIÇO, toda a documentação, relatórios e demais informações que relatem as circunstâncias em que os problemas ocorreram, objetivando facilitar e agilizar os trabalhos;"
+        item_3: "B.	Manter, às suas expensas, linha de telecomunicação, modem, software de comunicação, endereço de correio eletrônico e outros recursos necessários à comunicação com o LICENCIANTE;"
+        item_4: "C.	Responder pelas informações inseridas no SERVIÇO, pelo cadastramento, orçamentos, senhas e modo de utilização de seus usuários. A LICENCIANTE, em hipótese alguma, será responsável pelo conteúdo (informações, senhas, cópias de informações, etc) inserido pelo LICENCIADO no SERVIÇO, não sendo, portanto, estas informações revisadas em momento algum. A responsabilidade pelas informações do SERVIÇO é sempre do LICENCIADO;"
+        item_5: "D.	O LICENCIADO assume integralmente a responsabilidade civil e criminal do conteúdo constante nos SERVIÇOS."
+      claus_10:
+        item_1: "Obriga-se a LICENCIANTE a:"
+        item_2: "A.	Garantir ao LICENCIADO que o SERVIÇO deverá funcionar regularmente, se respeitadas as condições de uso definidas na documentação. Na ocorrência de falhas de programação (‘bugs’), a LICENCIANTE obrigar-se-á a corrigir tais falhas, podendo a seu critério, substituir a cópia dos Programas com falhas por cópias corrigidas;"
+        item_3: "B.	Fornecer, ato contínuo ao aceite deste Termo de Uso, acesso ao SERVIÇO pelo prazo estabelecido entre as Partes;"
+        item_4: "C.	Suspender o acesso ao SERVIÇO que esteja desrespeitando as regras de conteúdo aqui estabelecidas ou as normas legais em vigor ou ainda, ao final do prazo de validade deste instrumento, independentemente de aviso prévio;"
+        item_5: "D.	Alterar as especificações e/ou características dos SERVIÇOS licenciados para a melhoria e/ou correções de erros;"
+        item_6: "E.	Disponibilizar acesso aos serviços de suporte compreendido das 09:00h às 12:00h e das 14:00h às 18:00h (pelo horário de Brasília) via Zendesk (suporte.cloudmed.io) e/ou através de correio eletrônico (suporte@cloudmed.io), para esclarecimento de dúvidas de quaisquer ordens diretamente relacionadas ao SERVIÇO."
+      claus_11:
+        item_1: "A LICENCIANTE empreenderá esforços comercialmente razoáveis para tornar o SERVIÇO disponível, no mínimo, 97% (noventa e sete por cento) durante cada ano de serviço. Na hipótese de a LICENCIANTE não cumprir este compromisso, o cliente terá o direito a utilizar o SERVIÇO, gratuitamente, por 01 (um) mês, mediante solicitação expressa do LICENCIADO e análise do LICENCIANTE.O LICENCIADO poderá acompanhar regularmente a disponibilidade do SOFTWARE mediante o acesso ao seguinte endereço: www.status.portalcompras.ioO Compromisso de Nível de Serviço não se aplica às circunstâncias de indisponibilidade que resultem (i) de uma interrupção do fornecimento de energia elétrica ou paradas emergenciais não superiores a 02 (duas) horas ou que ocorram no período das 24:00h até as 6:00h (horário de Brasília); (ii) forem causadas por fatores que fujam ao cabível controle da LICENCIANTE, inclusive casos de força maior ou de acesso à Internet e problemas correlatos; (iii) resultem de quaisquer atos ou omissões do LICENCIADO ou de terceiros; (iv) resultem do equipamento, software ou outras tecnologias que o LICENCIADO usar e/ou do equipamento que impeçam o acesso regular ao SERVIÇO; (v) resultem de falhas de instâncias individuais não atribuíveis à indisponibilidade do LICENCIADO;"
+      claus_12:
+        item_1: "A.	Por falha de operação, operação por pessoas não autorizadas ou qualquer outra causa em que não exista culpa da LICENCIANTE;"
+        item_2: "B.	Pelo cumprimento dos prazos legais do LICENCIADO para a entrega de documentos fiscais ou pagamentos de impostos;"
+        item_3: "C.	Pelos danos ou prejuízos decorrentes de decisões administrativas, gerenciais ou comerciais tomadas com base nas informações fornecidas pelo SERVIÇO e;"
+        item_4: "D.	Por problemas definidos como ‘caso fortuito’ ou ‘força maior’ contemplados pelo art. 393, do Código Civil Brasileiro."
+      claus_13:
+        item_1: "A LICENCIANTE se reserva o direito de retomar o SERVIÇO, objeto deste Contrato de Uso, nos casos em que o LICENCIADO use o SERVIÇO de forma diversa daquela estipulada no presente instrumento."
+      claus_14:
+        item_1: "Na extensão máxima permitida pela lei em vigor, o SERVIÇO é fornecido ‘no estado em que se encontra’ e ‘conforme a disponibilidade’, com todas as falhas e sem garantia de qualquer espécie. A LICENCIANTE não garante que as funções contidas no software atendam às suas necessidades, que a operação do SERVIÇO será ininterrupta ou livre de erros, que qualquer serviço continuará disponível, que os defeitos no SERVIÇO serão corrigidos ou que o software será compatível ou funcione com qualquer software, aplicações ou serviços de terceiros.Além disso, o LICENCIADO reconhece que o SERVIÇO não deve ser utilizado ou não são adequados para serem utilizados em situações ou ambientes nos quais a falha ou atrasos de, os erros ou inexatidões de conteúdo, dados ou informações fornecidas pelos SERVIÇOS possam levar à morte, danos pessoais, ou danos físicos ou ambientais graves."
+      claus_15:
+        item_1: "Em nenhum caso a LICENCIANTE será responsável por danos pessoais ou qualquer prejuízo incidental, especial, indireto ou consequente, incluindo, mas não se limitando, prejuízos por perda de lucro, corrupção ou perda de dados, falha de transmissão ou recepção de dados, não continuidade do negócio ou qualquer outro prejuízo ou perda comercial, decorrentes ou relacionados ao seu uso ou sua inabilidade em usar o SERVIÇO por qualquer outro motivo. Sob nenhuma circunstância a responsabilidade integral da LICENCIANTE, com relação ao LICENCIADO por todos os danos, excederá a quantia paga pelo LICENCIADO à LICENCIANTE pela obtenção da presente licença de SOFTWARE."
+      claus_16:
+        item_1: "Caso o LICENCIADO viole o presente Termo de Uso, a LICENCIANTE poderá, além de todos os demais direitos e recursos previstos no presente Termo ou por lei, considerar rescindido imediatamente o presente Contrato, independentemente de aviso prévio: (1) Ao final do prazo de demonstração (trial); (2) Se o LICENCIADO utilizar o SOFTWARE de forma diversa ao estabelecido neste instrumento;(3) Pela falta de pagamento dos valores devidos nos prazos de vencimento."
+      claus_17:
+        item_1: "A.	O LICENCIADO não poderá prestar serviços a terceiros utilizando o SERVIÇO da LICENCIANTE sem sua autorização prévia e expressa;"
+        item_2: "B.	Caso o LICENCIADO venha a desenvolver um novo módulo ou produto que caracterize cópia, de todo ou em parte, quer seja do dicionário de dados, quer seja do programa, será considerado como parte do software fornecido pela LICENCIANTE, ficando, portanto, sua propriedade incorporada pela LICENCIANTE e seu uso condicionado a estas cláusulas contratuais;"
+        item_3: "C.	Este Termo de Uso obriga as partes e seus sucessores e o LICENCIADO possui somente licença não exclusiva para a utilização do SERVIÇO, sendo-lhe, entretanto, vedado transferir os direitos e obrigações impostos por este instrumento. Tal limitação, no entanto, não atinge a LICENCIANTE, que poderá, a qualquer tempo, ceder, no todo ou em parte, os direitos e obrigações inerentes ao presente Termo de Uso;"
+        item_4: "D.	A tolerância de uma parte para com a outra quanto ao descumprimento de qualquer uma das obrigações assumidas neste contrato não implicará em novação ou renúncia de direito. A parte tolerante poderá, a qualquer tempo, exigir da outra parte o fiel e cabal cumprimento deste Termo;"
+        item_5: "E.	Não constituem causa de rescisão contratual, o não cumprimento das obrigações aqui assumidas em decorrência de fatos que independam da vontade das partes, tais como os que configuram o caso fortuito e a força maior previstos no artigo 393 do Código Civil Brasileiro;"
+        item_6: "F.	Se qualquer disposição deste Termo de Uso for considerada nula, anulável, inválida ou inoperante, nenhuma outra disposição deste Termo será afetada como consequência disso e, portanto, as disposições restantes deste Termo permanecerão em pleno vigor e efeito como se tal disposição nula, anulável, inválida ou inoperante não estivesse contida;"
+        item_7: "G.	O LICENCIADO concorda que a LICENCIANTE possa divulgar o fechamento contrato para fins comerciais, fazendo menção ao nome e à marca do LICENCIADO em campanhas comerciais, podendo, inclusive, divulgar mensagens enviadas de forma escrita ou oral, por telefone, para uso em sites, jornais, revistas e outras campanhas, enquanto vigorar o presente Termo de Uso. O LICENCIADO aceita, ainda, receber notificações via correio eletrônico sobre treinamentos, parcerias e campanhas relacionadas ao SOFTWARE;"
+        item_8: "H.	Neste ato, o LICENCIANTE expressamente autoriza a LICENCIADA a colher e utilizar seus dados técnicos e operacionais presentes no SERVIÇO, para fins de estudos e melhorias no mesmo."
+        item_9: "I.	Este instrumento não estabelece entre as partes qualquer forma de sociedade (irregular, de fato ou regular), associação, grupo econômico, relação de emprego ou de representação, afastadas quaisquer hipóteses de responsabilidade solidária ou subsidiária na órbita trabalhista, previdenciária e tributária. Também não poderá ser entendido como mandato ou agenciamento, respondendo cada qual por suas responsabilidades trabalhistas, tributárias e previdenciárias, bem como toda e qualquer obrigação imposta pelo Poder Público, cabendo a cada parte todas as responsabilidades trabalhistas, securitárias e previdenciárias relativas a seus respectivos agentes, prepostos, trabalhadores de demais pessoas por ela credenciadas, não tendo os empregados desta qualquer relação de trabalho ou de emprego com a outra parte, sendo responsabilidade exclusiva da respectiva parte contratar e registrar os seus empregados, pagar-lhes a remuneração, bem como o seguro de acidentes, tributos, contribuições previdenciárias, encargos de natureza trabalhista e outras que venham a ser devidas nos termos da lei ou da norma coletiva, e vice-versa."
+      claus_18:
+        item_1: "Este Termo de Uso será regido, interpretado e se sujeitará às leis brasileiras e, em caso de inadimplência das obrigações ora contratadas, LICENCIADO e LICENCIANTE, desde logo elegem, de forma irrevogável e irretratável, o foro da Comarca da Franca, Estado de São Paulo, para dirimir quaisquer dúvidas ou controvérsias oriundas deste CONTRATO, com a exclusão de qualquer outro, por mais privilegiado que seja."

@@ -1,0 +1,854 @@
+
+body > .navbar {
+	font-size: 13px;
+}
+
+/*Menu Principal*/
+.containerm 
+{
+    padding: 0px;
+    width: 100%;
+}
+nav, ul, li, a  {margin: 0; padding: 0;}
+
+.toggleMenu {
+    display:  none;
+    padding: 10px 15px;
+    color: #fff;
+	background: #e8e3e3; /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%, rgba(246, 242, 242, 0.95) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232, 227, 227, 0.95)), color-stop(100%,rgba(246, 242, 242, 0.95))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(232, 227, 227, 0.95)', endColorstr='rgba(246, 242, 242, 0.95)',GradientType=0 ); /* IE6-9 */
+	background-repeat: repeat-x;
+	border-color: #252525;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+.active{
+  background-color: #86B66A;
+}
+
+.circle{
+    margin:10px;
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    background-color:#cccccc;
+    color:black;
+    text-align:center;
+    font-size:24px;
+}
+.circle.one-line{line-height:50px;}
+  
+.nav {
+    list-style: none;
+     *zoom: 1;
+background: #e8e3e3; /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%, rgba(246, 242, 242, 0.95) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232, 227, 227, 0.95)), color-stop(100%,rgba(246, 242, 242, 0.95))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(232, 227, 227, 0.95)', endColorstr='rgba(246, 242, 242, 0.95)',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul 
+{
+    list-style: none;
+    width: 9em;
+}
+.nav a {
+    padding: 10px 15px;
+	color:black;
+	font-weight: lighther;
+}
+.nav li {
+    position: relative;
+}
+.nav > li.last {
+    margin-right:100px;
+}
+.nav > li {
+    width:auto;
+    float: right;
+    border-bottom : 0px solid black;   
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav > li > .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav > li > a {display: block;}
+.nav > li > ul > li .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #003366;
+    position: relative;
+    z-index:100;
+    border-bottom: 1px solid black;
+}
+.nav > li > ul > li.hover{
+   background-color:#E51400;
+}
+.nav > li > ul > li.hover > a{
+   background-color:#E51400;
+}
+.nav li li li a {
+    background:#003366;
+    z-index:200;
+    border-bottom: 1px solid black;
+}
+.nav > li > ul > li.hover > ul > li.hover{background-color:#E51400;}
+.nav > li > ul > li.hover > ul > li.hover > a{
+   background-color:#E51400;
+}
+
+@media screen and (max-width: 983px) {
+    .active     {
+        display: block;
+    }
+    .nav > li     {
+        float: none;
+    }
+    .nav > li.last     {
+           margin-right:5px;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+
+}
+
+
+#top.container {
+	margin: 0px;
+	width:95%;
+	margin-left:20px;
+}
+
+h1 {
+	-webkit-font-smoothing: antialiased;
+	font-size: 30px;
+	margin-bottom: 0;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	color: #333;
+}
+
+h2 {
+	-webkit-font-smoothing: antialiased;
+	font-size: 24px;
+	margin: 35px 0 25px 0;
+	border-bottom-color: #DDD;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: #546872;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	height: 33px;
+	line-height: 33px;
+}
+
+h3 {
+	-webkit-font-smoothing: antialiased;
+	font-size: 18px;
+	margin: 25px 0 10px 0;
+
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	height: 25px;
+	line-height: 25px;
+}
+
+h4 {
+	-webkit-font-smoothing: antialiased;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+
+	font-size: 14px;
+	color: #444;
+	font-style: normal;
+	font-variant: normal;
+}
+h4 span{
+	font-weight: lighter;
+}
+
+p{
+	-webkit-font-smoothing: antialiased;
+	color: #333;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 21px;
+	vertical-align: baseline;
+}
+
+
+ol.table-of-contents{
+	margin-left: 20px;
+}
+
+
+.pager { margin: 40px 0; font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;}
+
+span.code {
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	border: 1px solid #CCC;
+	background-color: #EEE;
+	font-size: 14px;
+	padding: 1px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+p.more-info {
+	color: #888;
+	margin-bottom: 25px;
+	text-align:right
+}
+
+.external{
+  padding-right: 15px;
+  background: #fff url("../img/external.png") no-repeat right center;
+}
+
+.command{
+  padding-right: 18px;
+  background: #fff url("../img/command.png") no-repeat right center;
+}
+
+.command-short {
+	height: 80px;
+	padding-top: 6px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.command-short a{
+	margin: 10px;
+}
+
+.command-short p{
+	margin: 0 10px;
+	font-size: 12px;
+}
+
+.group-of-commands{
+	margin: 25px 0 35px 0;
+	text-align: center;
+}
+
+.commands-group{
+/*	border: 1px solid #777;*/
+	padding: 6px 12px;
+	font-size: 13px;
+}
+
+.collection{
+	-webkit-background-clip: padding-box;
+	background-attachment: scroll;
+	background-clip: padding-box;
+	background-color: #ECECEC;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F4F4F4), to(#ECECEC));
+	background-origin: padding-box;
+	border-bottom-color: #D4D4D4;
+
+	border-radius: 550px;
+	-moz-border-radius: 550px;
+	-webkit-border-radius: 550px;
+
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #D4D4D4;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #D4D4D4;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #D4D4D4;
+
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #333;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	height: 13px;
+	line-height: normal;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	outline-color: #333;
+	outline-style: none;
+	outline-width: 0px;
+	overflow-x: visible;
+	overflow-y: visible;
+	padding-bottom: 5px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 5px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: white 1px 1px 0px;
+	white-space: nowrap;
+	zoom: 1;
+}
+
+.group-of-commands li{
+	display: inline;
+	margin-right: 10px;
+/*	border: 1px solid #ccc;*/
+	padding: 5px;
+
+	line-height: 50px;
+}
+
+
+/* Banner */
+div#banner{
+	margin: 0px 0;
+	background: #fff url("/img/logo1.png") no-repeat ;
+	/*background-size:110px 75px;*/
+	background-position: 10% 50%;
+	border-bottom: 1px solid black;
+	height: 80px;
+}
+
+       /* Sidebar */
+/* Menu */
+.accordion{
+	position : fixed;
+}
+.accordion-group{
+	margin-bottom: 7px;
+}
+
+.accordion-heading a{
+	font-weight: normal;
+	text-decoration: none;
+	background-color:#86B66A;
+	color: black;	
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	margin-left: 15px;
+	height: 13px;
+}
+.accordion-inner {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	background-color:white;
+}
+.accordion-inner ul {
+	background-color:white;
+	list-style: none;
+	margin: 0;
+}
+.accordion-inner ul li.active {
+	font-weight: bolder;
+}
+.accordion-inner ul li{
+	line-height: 20px;
+}
+.accordion-inner ul li a{
+	color: black;
+	font-size: 13px;
+}
+
+.features { list-style: none; margin: 12px 0 40px 0; }
+
+.features li {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.img-tutorial {
+	margin-bottom: 15px;
+}
+
+.fields{
+	margin-top: 10px;
+}
+
+ol li { line-height: 2em; }
+
+/* Commands */
+h2.command-header{
+	border-bottom: 1px dashed #ccc;
+	font-weight: lighter;
+	margin: 45px 0 15px 0;
+}
+
+.backtotop {float: right; margin-top: -40px;}
+
+.data-type { color: #888; }
+
+.parameters li{
+	margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  padding: 5px 0;
+  margin-top: 0px;
+  border-top: 1px solid black;
+  background-color: #fafafa;
+}
+.footer p {
+  margin-bottom: 0;
+  margin-left: 20px;
+  color: black;
+}
+.footer-links {
+  margin: 10px;
+}
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+
+/* GITHUB BUTTON */
+.button {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #d4d4d4;
+    margin: 0;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #fff;
+    font:13px/normal sans-serif;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box;
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    /* IE hacks */
+    zoom: 1;
+    *display: inline;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    border-color: #3072b3;
+    border-bottom-color: #2a65a0;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    color: #fff;
+    background-color: #3072b3;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+    background-image: -moz-linear-gradient(#599bdc, #3072b3);
+    background-image: -o-linear-gradient(#599bdc, #3072b3);
+    background-image: linear-gradient(#599bdc, #3072b3);
+}
+
+.button:active,
+.button.active {
+    border-color: #2a65a0;
+    border-bottom-color: #3884CF;
+    color: #fff;
+    background-color: #3072b3;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
+    background-image: -moz-linear-gradient(#3072b3, #599bdc);
+    background-image: -o-linear-gradient(#3072b3, #599bdc);
+    background-image: linear-gradient(#3072b3, #599bdc);
+}
+
+/* overrides extra padding on button elements in Firefox */
+.button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.button.primary {
+  border-color: #3072b3;
+  border-bottom-color: #2a65a0;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+  color: #fff;
+  background-color: #3072b3;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+  background-image: -moz-linear-gradient(#599bdc, #3072b3);
+  background-image: -o-linear-gradient(#599bdc, #3072b3);
+  background-image: linear-gradient(#599bdc, #3072b3);
+}
+
+.button.pill {
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+}
+
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(http://lab.mattvarone.com/projects/jquery/totop/img/ui.totop.png) no-repeat left top;}
+#toTopHover {
+	background:url(http://lab.mattvarone.com/projects/jquery/totop/img/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);}
+#toTop:active, #toTop:focus {
+	outline:none;}
+	
+	/* Note */
+p.note {
+	background: #eef url(/img/note.png) no-repeat center left;
+	border:1px solid #dde;
+	color:#223;
+    padding: 1.2em 1em 1.2em 55px;
+	margin: 20px 0;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+#navegador li {
+  display:inline;
+}
+#navegador ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  border-radius: 50000px;
+}
+#navegador a {
+  font-weight:bold;
+  background-color:'transparent' ;
+  border:1px solid #BDBDBD ;
+  padding:0.1cm;
+  text-decoration:none;
+  border-radius: 10px;
+}
+#navegador a:hover {
+  font-weight:bold;
+  background:#C0C0C0  ;
+  border:1px solid black ;
+  border-radius:10px;
+}
+
+.metro-surface{
+	padding: 0px 0px 0px 0px;
+}
+
+.metro-tile {
+	background-color: #008000;
+	border-color: #008000;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	color: #FFF;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: ligther;
+	border-width: 3px;
+	border-style: solid;
+	cursor: pointer;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+}
+.metro-tile-fluxo {
+	background-color: #446FB1;
+	border-color: #446FB1;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	color: #FFF;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	font-weight: light;
+	border-style: solid;
+	cursor: pointer;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+}
+
+.metro-tile-small {
+	width: 75px;
+	height: 40px;
+}
+
+.metro-surface a:hover  {
+	text-decoration: none;
+}
+
+div.metro-tile:hover {
+	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	border-width: 3px;
+	border-style:solid; 
+}
+
+div.metro-tile-fluxo:hover {
+	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	border-width: 3px;
+	border-style:solid; 
+}
+
+.metro-tile-green {
+	background-color:#00A300;
+	border-color:#00A300;
+}
+.metro-tile-red {
+ background-color: #B91D47;
+	border-color: #B91D47;;
+}
+.metro-tile-teal {
+ background-color: #00ABA9;
+	border-color: #00ABA9;;
+}
+.metro-tile-orange {
+ background-color: #F09609;
+	border-color: #F09609;;
+}
+
+  
+
+
+
+.zoomh {
+-webkit-transition:All 3s ease;
+-moz-transition:All 3s ease;
+-o-transition:All 3s ease;
+}
+
+.zoomh:hover{
+-webkit-transform: rotate(0deg) scale(1.250) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1.250) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(1.250) skew(1deg) translate(0px);
+}
+
+
+
+
+
+
+	/* ------------------------------------------------------------
+		Reset Styles (from meyerweb.com)
+	------------------------------------------------------------ */
+
+
+
+	/* ------------------------------------------------------------
+		NUMBER OF COLUMNS: Adjust #primaryNav li to set the number
+		of columns required in your site map. The default is 
+		4 columns (25%). 5 columns would be 20%, 6 columns would 
+		be 16.6%, etc. 
+	------------------------------------------------------------ */
+
+	#primaryNav li {
+		width:75%;
+	}
+
+	#primaryNav li ul li {
+		width:100% !important;
+	}
+
+	#primaryNav.col1 li { width:99.9%; }
+	#primaryNav.col2 li { width:50.0%; }
+	#primaryNav.col3 li { width:33.3%; }
+	#primaryNav.col4 li { width:25.0%; }
+	#primaryNav.col5 li { width:20.0%; }
+	#primaryNav.col6 li { width:16.6%; }
+	#primaryNav.col7 li { width:14.2%; }
+	#primaryNav.col8 li { width:12.5%; }
+	#primaryNav.col9 li { width:11.1%; }
+	#primaryNav.col10 li { width:10.0%; }
+
+	/* ------------------------------------------------------------
+		General Styles
+	------------------------------------------------------------ */
+
+	.sitemap {
+		margin: 0 0 40px 0;
+		float: left;
+		width: 100%;
+	}
+	.sitemap h1 {
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 20px;
+		margin: 0 0 5px 0;
+	}
+	.sitemap h2 {
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 10px;
+		color: #777777;
+		margin: 0 0 20px 0;
+	}
+	.sitemap a {
+		text-decoration: none;
+	}
+	.sitemap ol, ul {
+		list-style: none;
+	}
+
+
+	/* ------------------------------------------------------------
+		Site Map Styles
+	------------------------------------------------------------ */
+
+	/* --------	Top Level --------- */
+	#primaryNav {
+		margin: 0;
+		float: left;
+		width: 100%;	
+		height:320px;
+	}
+	#primaryNav #home {
+		display: block;
+		float: none;
+		position: relative;
+		z-index: 2;
+		padding: 0 0 30px 0;
+	}
+	#primaryNav #image {
+		margin-top: 0;
+		width:10px;
+		height:10px;
+	}
+	#primaryNav li {
+		float: left;
+		background: url('/img/L1-center.png') center top no-repeat;
+		padding: 30px 0;
+		margin-top: -30px;
+	}
+	#primaryNav li a {
+		margin: 0 20px 0 0;
+		padding: 10px 0;
+		display: block;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		border-color: #999 #000 #000 #999;
+		border: 1px solid;
+		background:#417DB9; 
+		color: white;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;	
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+	}
+	#primaryNav li a:hover {
+		background-color: #FB4C2F;
+		border-color: black;
+	}
+
+	/* --------	Second Level --------- */
+	#primaryNav li li {
+		width: 100%;
+		clear: left;
+		margin-top: 0;
+		padding: 10px 0 0 0;
+	}
+	#primaryNav li li a:hover {
+		background-color: #FB4C2F;
+		border-color: black;
+	}
+	#primaryNav li li:first-child {
+		padding-top: 30px;
+	}
+
+ 
