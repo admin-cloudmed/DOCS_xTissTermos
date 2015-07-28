@@ -8,20 +8,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "termosXtiss", "http://local
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_36345"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\xTiss\termosXtiss\"
+		Debug.AspNetCompiler.PhysicalPath = "..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\xTiss\termosXtiss\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36345\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_36345"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\xTiss\termosXtiss\"
+		Release.AspNetCompiler.PhysicalPath = "..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\xTiss\termosXtiss\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36345\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\..\..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\xTiss\termosXtiss\"
+		SlnRelativePath = "..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\xTiss\termosXtiss\"
 	EndProjectSection
 EndProject
 Global
