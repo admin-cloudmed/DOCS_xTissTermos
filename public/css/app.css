@@ -174,7 +174,7 @@ h1 {
 	-webkit-font-smoothing: antialiased;
 	font-size: 30px;
 	margin-bottom: 0;
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
@@ -189,7 +189,7 @@ h2 {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	color: #546872;
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
@@ -202,7 +202,7 @@ h3 {
 	font-size: 18px;
 	margin: 25px 0 10px 0;
 
-	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',   "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
@@ -212,7 +212,7 @@ h3 {
 
 h4 {
 	-webkit-font-smoothing: antialiased;
-	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',   "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 
 	font-size: 14px;
 	color: #444;
@@ -226,7 +226,7 @@ h4 span{
 p{
 	-webkit-font-smoothing: antialiased;
 	color: #333;
-	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',   "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
@@ -241,10 +241,10 @@ ol.table-of-contents{
 }
 
 
-.pager { margin: 40px 0; font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;}
+.pager { margin: 40px 0; font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;}
 
 span.code {
-	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',   "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	border: 1px solid #CCC;
 	background-color: #EEE;
 	font-size: 14px;
@@ -328,7 +328,7 @@ p.more-info {
 	cursor: pointer;
 	display: block;
 	float: left;
-	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',   "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 11px;
 	font-style: normal;
 	font-variant: normal;
@@ -392,12 +392,12 @@ div#banner{
 	text-decoration: none;
 	background-color:#86B66A;
 	color: black;	
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	margin-left: 15px;
 	height: 13px;
 }
 .accordion-inner {
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	background-color:white;
 }
 .accordion-inner ul {
@@ -626,7 +626,7 @@ p.note {
 	height: 40px;
 	padding: 5px;
 	color: #FFF;
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 12px;
 	font-weight: ligther;
 	border-width: 3px;
@@ -644,7 +644,7 @@ p.note {
 	height: 40px;
 	padding: 5px;
 	color: #FFF;
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 12px;
 	text-align: center;
 	font-weight: light;
@@ -769,7 +769,7 @@ div.metro-tile-fluxo:hover {
 		margin: 0 0 5px 0;
 	}
 	.sitemap h2 {
-		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 10px;
 		color: #777777;
 		margin: 0 0 20px 0;
@@ -822,7 +822,7 @@ div.metro-tile-fluxo:hover {
 		border: 1px solid;
 		background:#417DB9; 
 		color: white;
-		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		font-family: 'Exo 2',  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 11px;
 		font-weight: bold;
 		text-align: center;
